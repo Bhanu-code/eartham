@@ -13,8 +13,8 @@ const _Footer = () => {
     <>
       <div className="w-full footer-wrapper footer text-white bg-[color:var(--green-color)] py-10">
         <div className="cont w-1/2 m-auto flex flex-col items-center justify-center space-y-8">
-          <h1>EARTHAM</h1>
-          <div className="footer-links space-x-8">
+          <h1 className="jost-600 font-semibold text-[25px] tracking-wide">EARTHAAM</h1>
+          <div className="footer-links montserrat-600 font-semibold text-[15px] text-[#FFFFFF] space-x-8">
             <Link href={"/"}>
               Home
             </Link>
@@ -41,7 +41,7 @@ const _Footer = () => {
             <Image className="bg-white rounded-full p-2" src={Security} width={40} height={40} alt="message" />
             <Image className="bg-white rounded-full p-2" src={Time} width={40} height={40} alt="message" />
           </div>
-          <h2 className="copyright">All rights reserved 2025.</h2>
+          <h2 className="copyright jost-400 text-[12px] text-[#92989F]">All right reserved 2024.</h2>
 
         </div>
 
