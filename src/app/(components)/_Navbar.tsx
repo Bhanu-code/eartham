@@ -87,7 +87,7 @@ const _Navbar = () => {
           {/* Auth Buttons - Responsive sizing */}
           <div className="hidden sm:flex btns space-x-2 lg:space-x-3 montserrat-600 text-xs sm:text-sm lg:text-[16px] font-semibold">
             <button className="bg-[color:var(--green-color)] text-white px-3 sm:px-4 lg:px-6 py-1.5 sm:py-2 rounded-2xl lg:rounded-3xl hover:bg-opacity-90 transition-all duration-200 hover:scale-105 whitespace-nowrap">
-              {window.innerWidth < 768 ? 'Login' : 'Log In'}
+              Log In
             </button>
             <button className="bg-[color:var(--green-color)] text-white px-3 sm:px-4 lg:px-6 py-1.5 sm:py-2 rounded-2xl lg:rounded-3xl hover:bg-opacity-90 transition-all duration-200 hover:scale-105 whitespace-nowrap">
               Register
