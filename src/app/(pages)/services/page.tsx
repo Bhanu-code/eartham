@@ -4,15 +4,24 @@ import ServiceSec from "@/app/(components)/services/ServiceSec"
 import ServicesSec from "@/app/(components)/services/ServicesSec"
 import { services } from "@/app/utils/constant"
 
+interface Service {
+
+  id: number;
+  name: string;
+  desc: string;
+  points: string[];
+}
+
+
 
 const page = () => {
   return (
     <>
-      <Hero/>
-      <ServicesSec/>
-      <Clients/>
+      <Hero />
+      <ServicesSec />
+      <Clients />
       {
-        services.map((service: object, index: number)=>(
+        services.map((service: Service, index: number) => (
           <ServiceSec key={index} data={service} />
         ))
       }

@@ -6,7 +6,7 @@ import GreenBg from "../../../public/hero_home_icons/greenbg.png";
 import Slide1 from "../../../public/hero_home_icons/Slide2.png";
 import Slide2 from "../../../public/hero_home_icons/Slide1.png";
 
-const _HeroHome = () => {
+const HeroHome = () => {
   const images = [Slide1, Slide2];
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
@@ -68,4 +68,4 @@ const _HeroHome = () => {
   );
 };
 
-export default _HeroHome;
+export default HeroHome;

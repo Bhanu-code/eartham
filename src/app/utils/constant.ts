@@ -1,3 +1,8 @@
+import Quality from "../../../public/hero_home_icons/premium-badge 1.svg"
+import ProvenExp from "../../../public/hero_home_icons/customer-review 1 (1).svg"
+import Innovative from "../../../public/hero_home_icons/collaboration 1.svg"
+import Client from "../../../public/hero_home_icons/target 1.svg"
+
 export const creds = [
     {
         value: "200+",
@@ -57,21 +62,25 @@ export const tabs = [
 export const whychooseus = [
     {
         id: 1,
+        icon: ProvenExp,
         name: "Over Two Decades of Proven Expertise",
         desc: "Years of expertise as a trusted real estate developer, delivering iconic projects with precision and excellence."
     },
     {
         id: 2,
+        icon: Quality,
         name: "Premium Quality With Every Project",
         desc: "Commitment to superior construction standards, premium materials, and world-class craftsmanship for enduring landmarks."
     },
     {
         id: 3,
+        icon: Client,
         name: "Client Focus",
         desc: "Building strong relationships through tailored solutions and exceptional customer satisfaction in every project."
     },
     {
         id: 4,
+        icon: Innovative,
         name: "End-to-End Real Estate Solutions",
         desc: "Driving future-ready developments with cutting-edge technologies and innovative construction solutions."
     },

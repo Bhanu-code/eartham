@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="text-center md:text-left mt-5 text-[var(--green-color)] flex-1">
           <h4 className="kanit-400 text-[14px] font-medium">ABOUT EARTHAM</h4>
           <h1 className="text-[40px] lg:text-[55px] kanit-600 font-semibold leading-[3.5rem]">
-            We're providing the best customer service
+            We&apos;re providing the best customer service
           </h1>
           <div className="bg-[var(--grey-color)] lato-400 text-[17px] w-full p-6 my-5 rounded-md">
             <p>

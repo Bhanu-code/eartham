@@ -4,7 +4,7 @@ import Image from 'next/image'
 import React from 'react'
 import Slide2 from "../../../public/hero_home_icons/slide2.png"
 
-const _About = () => {
+const About = () => {
   const images = [Slide2, Slide2, Slide2, Slide2, Slide2];
   const [currentIndex, setCurrentIndex] = React.useState(1);
 
@@ -53,4 +53,4 @@ const _About = () => {
   )
 }
 
-export default _About
+export default About

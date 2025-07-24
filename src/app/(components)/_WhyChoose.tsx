@@ -6,6 +6,9 @@ import WhyChooseCard from "./WhyChooseCard";
 import Building from "../assets/whychoose/building.png";
 import { whychooseus } from "../utils/constant";
 
+
+
+
 const _WhyChoose = () => {
   return (
     <div className="w-full mt-10 sm:mt-15 md:mt-20 lg:mt-30">
@@ -32,14 +35,14 @@ const _WhyChoose = () => {
       </div>
 
       {/* Tablet */}
-      <div className="hidden md:block lg:hidden bg-[var(--green-color)] py-8 px-4 h-[1200px]">
+      <div className="hidden md:block lg:hidden bg-[var(--green-color)] w-screen py-8 px-1 h-[1200px]">
         <div className="max-w-6xl mx-auto">
           <div className="bg-white text-[var(--green-color)] text-4xl md:text-5xl montserrat-400 flex flex-col items-center text-center rounded-lg py-8 mb-6">
             <p>WHY</p>
             <p>CHOOSE</p>
             <p>US?</p>
           </div>
-          <div className="grid grid-cols-3 gap-4 h-[500px]">
+          <div className="grid grid-cols-3 gap-4 h-[400px] w-11/12">
             <div className="space-y-4">
               {whychooseus.slice(0, 2).map((item, index) => (
                 <div className="h-1/2" key={index}>
@@ -53,10 +56,10 @@ const _WhyChoose = () => {
                 width={1500}
                 height={1500}
                 alt="building"
-                className="w-full h-full object-cover rounded-lg"
+                className="w-full h-full pl-15 lg:ml-0 object-cover rounded-lg"
               />
             </div>
-            <div className="space-y-4">
+            <div className="space-y-4 ">
               {whychooseus.slice(2).map((item, index) => (
                 <div className="h-1/2" key={index}>
                   <WhyChooseCard data={item} />

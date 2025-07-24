@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -7,7 +8,7 @@ import { useState } from "react"
 import Logo from "../assets/navbar_icons/logo.svg";
 import Search from "../assets/navbar_icons/search_icon.svg";
 
-const _Navbar = () => {
+const Navbar = () => {
   const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -153,4 +154,4 @@ const _Navbar = () => {
   )
 }
 
-export default _Navbar
+export default Navbar
