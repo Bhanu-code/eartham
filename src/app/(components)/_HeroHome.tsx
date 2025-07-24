@@ -17,7 +17,7 @@ const _HeroHome = () => {
 
                 <div className="hero-bg w-screen top-10 relative">
                     <Image className="w-full relative top-5 z-0" src={GreenBg} height={300} width={900} alt="hero-bg" />
-                    <Image className="absolute z-10 bottom-0 right-1 border-red-800" src={Slide2} height={1050} width={1050} alt="hero-bg" />
+                    <Image className="absolute z-10 bottom-0 hero-home-img right-1 border-red-800" src={Slide2} height={1050} width={1050} alt="hero-home" />
                     <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white via-white/90 to-transparent pointer-events-none z-20"></div>
                 </div>
             </div>
