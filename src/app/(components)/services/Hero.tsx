@@ -33,7 +33,7 @@ const Hero = () => {
                         </div>
                         <div className="right w-1/2 hidden md:flex flex-col justify-between">
                             {/* card   */}
-                            <div className="bg-white  flex items-center justify-start gap-3 p-3 w-1/3">
+                            <div className="bg-white  flex items-center justify-start gap-3 p-3 md:w-4/5 lg:w-1/3">
                                 <Image className='inline' src={ImageIcon} width={50} height={50} alt='play' />
                                 <div className='flex flex-col'>
                                     <span>Daniel Chester</span>
@@ -41,7 +41,7 @@ const Hero = () => {
                                 </div>
                             </div>
                             {/* card   */}
-                            <div className="bg-white  flex items-center justify-end ml-auto gap-3 p-3 w-1/3">
+                            <div className="bg-white  flex items-center justify-end ml-auto gap-3 p-3 md:w-4/5 lg:w-1/3">
                                 <Image className='inline' src={ImageIcon} width={50} height={50} alt='play' />
                                 <div className='flex flex-col'>
                                     <span>Daniel Chester</span>

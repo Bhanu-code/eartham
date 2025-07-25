@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation Links - Hidden on mobile/tablet */}
-        <div className="hidden lg:flex nav-links space-x-10 xl:space-x-8 montserrat-600 text-sm xl:text-[15px] font-semibold">
+        <div className="hidden lg:flex nav-links space-x-10 lg:w-[35rem] justify-between xl:space-x-8 montserrat-600 text-sm xl:text-[15px] font-semibold">
           {navLinks.map((link) => (
             <Link
               key={link.href}

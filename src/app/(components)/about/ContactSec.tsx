@@ -10,7 +10,7 @@ const ContactSec = () => {
         <>
             <div className="contact w-11/12 my-10 mb-50 flex flex-col-reverse md:flex-row items-center  m-auto justify-between md:gap-x-10 lg:gap-x-20">
                 <div className="left w-11/12 md:w-1/2">
-                    <h1 className="text-[40px] md:text-[55px] text-nowrap monytserrat-600 font-semibold text-[var(--green-color)] my-5">Reques a Qute</h1>
+                    <h1 className="text-[40px] md:text-[55px] text-nowrap monytserrat-600 font-semibold text-[var(--green-color)] my-5">Request a Quote</h1>
                     <div className="grid grid-cols-2 items-center justify-between gap-5 text-[#00000040]">
                         <input type="text" placeholder="Full Name" className="border p-2" />
                         <input type="text" placeholder="E-Mail" className="border p-2" />
