@@ -19,15 +19,16 @@ const Hero = () => {
   return (
     <>
       {/* About Hero Section */}
-      <div className="relative w-full about-hero-bg">
-        <Image src={AboutHero} height={1500} width={1500} alt="about background" className="w-full" />
-        <h1 className="absolute text-white text-[20px] md:text-[40px] lg:text-[72px] font-semibold montserrat-600 w-3/5 md:w-1/2 md:leading-[3rem] lg:leading-[5rem] top-5 md:top-5 lg:top-10 left-5 lg:left-20 z-10">
+      <div
+        className=" w-full about-hero-bg h-4/5 py-10 pl-20">
+        {/* <Image src={AboutHero} height={1500} width={1500} alt="about background" className="w-full" /> */}
+        <h1 className=" text-white  text-7xl font-semibold montserrat-600 w-3/5 md:w-1/2 md:leading-[3rem] lg:leading-[5rem] top-5 md:top-5 lg:top-10 left-5 lg:left-20 z-10">
           Precision Design. Enduring Architecture. Inspired Living.
         </h1>
-      </div>
+      </div >
 
       {/* About Info Section */}
-      <div className="md:w-[1175px] w-full m-auto my-20 flex flex-col md:flex-row md:gap-x-5 lg:gap-x-40 px-4">
+      <div className="md:w-[1175px] w-full m-auto my-20 flex flex-col md:flex-row md:gap-x-5 lg:gap-x-40 px-4" >
         <div className="w-full md:w-1/3">
           <Image src={HelmetMan} height={620} width={400} alt="helmet man" />
         </div>
@@ -54,7 +55,7 @@ const Hero = () => {
       </div>
 
       {/* Bridge Section */}
-      <div className="relative">
+      <div className="relative" >
         <Image src={Bridge} height={1500} width={1500} alt="bridge background" className="w-full" />
         <div className="absolute top-0 w-full h-full flex flex-col justify-center items-center text-white text-center px-6">
           <h1 className="text-[30px] lg:text-[55px] font-semibold montserrat-600">Build Your Future Today</h1>
@@ -66,25 +67,27 @@ const Hero = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="w-11/12 lg:w-4/5 relative top-10 mb-20 md:mb-1 md:-top-22 lg:-top-15 m-auto flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-5 lg:space-x-8">
-        {aboutCards.map((item: AboutCard) => (
-          <div
-            key={item.id}
-            className="w-full md:w-1/3 lg:w-[381px] shadow-lg p-4 bg-white flex items-center space-x-4 "
-          >
-            <div className="bg-[var(--green-color)] font-bold text-[40px] kanit-700 text-white p-5  min-w-[80px] text-center">
-              {item.id}
+      <div className="w-11/12 lg:w-4/5 relative top-10 mb-20 md:mb-1 md:-top-22 lg:-top-15 m-auto flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-5 lg:space-x-8" >
+        {
+          aboutCards.map((item: AboutCard) => (
+            <div
+              key={item.id}
+              className="w-full md:w-1/3 lg:w-[381px] shadow-lg p-4 bg-white flex items-center space-x-4 "
+            >
+              <div className="bg-[var(--green-color)] font-bold text-[40px] kanit-700 text-white p-5  min-w-[80px] text-center">
+                {item.id}
+              </div>
+              <div>
+                <h1 className="text-[var(--blue-color)] montserrat-700 font-bold text-[20px]">{item.name}</h1>
+                <p className="montserrat-300 text-[17px] font-light">{item.desc}</p>
+              </div>
             </div>
-            <div>
-              <h1 className="text-[var(--blue-color)] montserrat-700 font-bold text-[20px]">{item.name}</h1>
-              <p className="montserrat-300 text-[17px] font-light">{item.desc}</p>
-            </div>
-          </div>
-        ))}
+          ))
+        }
       </div>
 
       {/* Contact Section */}
-      <ContactSec />
+      < ContactSec />
     </>
   );
 };

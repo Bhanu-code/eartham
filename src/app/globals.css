@@ -11,12 +11,19 @@
 }
 
 .hero-bg {
-    background-image: url('/src/app/assets/hero_home_icons/greenbg.png');
+    background-image: url('../../public/hero_home_icons/greenbg.png');
     object-fit: cover;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.7;
+}
+.about-hero-bg {
+    background-image: url('../../public/about/abouthero.png');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @theme inline {
