@@ -19,7 +19,7 @@ const HeroHome = () => {
 
   return (
     <div className="w-full space-y-1 text-[color:var(--green-color)] overflow-hidden montserrat-400">
-      <div className="pl-20 pt-10 pb-2">
+      <div className="pl-20 pt-10 md:pl-10 lg:pl-20 lg:pt-10 pb-2">
         <h2 className="text-[color:var(--green-color)] text-[25px]">
           Crafting Landmarks,
         </h2>

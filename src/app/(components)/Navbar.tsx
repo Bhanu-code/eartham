@@ -75,7 +75,7 @@ const Navbar = () => {
         {/* Right Section */}
         <div className="flex items-center space-x-2 sm:space-x-3 lg:space-x-4">
           {/* Search Icon */}
-          <div className="search-cont bg-[color:var(--green-color)] rounded-full p-1.5 sm:p-2 hover:scale-110 transition-transform duration-200 cursor-pointer">
+          {/* <div className="search-cont bg-[color:var(--green-color)] rounded-full p-1.5 sm:p-2 hover:scale-110 transition-transform duration-200 cursor-pointer">
             <Image 
               src={Search} 
               height={12} 
@@ -83,17 +83,17 @@ const Navbar = () => {
               className="w-3 h-3 sm:w-4 sm:h-4 md:w-[15px] md:h-[15px]"
               alt="search" 
             />
-          </div>
+          </div> */}
           
           {/* Auth Buttons - Responsive sizing */}
-          <div className="hidden sm:flex btns space-x-2 lg:space-x-3 montserrat-600 text-xs sm:text-sm lg:text-[16px] font-semibold">
+          {/* <div className="hidden sm:flex btns space-x-2 lg:space-x-3 montserrat-600 text-xs sm:text-sm lg:text-[16px] font-semibold">
             <button className="bg-[color:var(--green-color)] text-white px-3 sm:px-4 lg:px-6 py-1.5 sm:py-2 rounded-2xl lg:rounded-3xl hover:bg-opacity-90 transition-all duration-200 hover:scale-105 whitespace-nowrap">
               Log In
             </button>
             <button className="bg-[color:var(--green-color)] text-white px-3 sm:px-4 lg:px-6 py-1.5 sm:py-2 rounded-2xl lg:rounded-3xl hover:bg-opacity-90 transition-all duration-200 hover:scale-105 whitespace-nowrap">
               Register
             </button>
-          </div>
+          </div> */}
           
           {/* Hamburger Menu - Show on mobile and tablet */}
           <button

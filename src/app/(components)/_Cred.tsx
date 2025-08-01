@@ -23,9 +23,9 @@ const _Cred = () => {
       </div>
 
       {/* Tabs Section */}
-      <div className="w-[95%] sm:w-11/12 text-[var(--green-color)] my-10 sm:my-15 md:my-20 m-auto">
+      <div className=" w-11/12  text-[var(--green-color)] my-10 sm:my-15 md:my-20 m-auto">
         {/* Desktop/Tablet Layout */}
-        <div className="hidden sm:flex items-center justify-between space-x-3 md:space-x-5 text-center">
+        <div className="hidden   sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-between md:gap-10 lg:gap-x-5  text-center">
           {
             tabs.map((item, index) => (
               <button 
@@ -39,7 +39,7 @@ const _Cred = () => {
                   className="md:h-9 md:w-9 flex-shrink-0" 
                   alt="right icon" 
                 />
-                <p className='text-left font-medium text-sm md:text-[18px] truncate'>
+                <p className='text-left font-medium text-sm md:text-[18px]'>
                   {item.name}
                 </p>
               </button>

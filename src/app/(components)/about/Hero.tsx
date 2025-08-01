@@ -17,12 +17,12 @@ type AboutCard = {
 
 const Hero = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       {/* About Hero Section */}
       <div
-        className=" w-full about-hero-bg h-4/5 py-10 pl-20">
-        {/* <Image src={AboutHero} height={1500} width={1500} alt="about background" className="w-full" /> */}
-        <h1 className=" text-white  text-7xl font-semibold montserrat-600 w-3/5 md:w-1/2 md:leading-[3rem] lg:leading-[5rem] top-5 md:top-5 lg:top-10 left-5 lg:left-20 z-10">
+        className="w-full relative ">
+        <Image src={AboutHero} height={1500} width={1500} alt="about background" className="w-full" />
+        <h1 className="absolute  text-white text-lg md:text-4xl  lg:text-7xl font-semibold montserrat-600 w-3/5 md:w-1/2 md:leading-[3rem] lg:leading-[5rem] top-5 md:top-5 lg:top-10 left-5 lg:left-20 z-10">
           Precision Design. Enduring Architecture. Inspired Living.
         </h1>
       </div >
@@ -88,7 +88,7 @@ const Hero = () => {
 
       {/* Contact Section */}
       < ContactSec />
-    </>
+    </div>
   );
 };
 

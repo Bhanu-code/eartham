@@ -10,11 +10,11 @@ import Image from "next/image";
 const _Footer = () => {
   const footerLinks = [
     { href: "/", label: "Home" },
-    { href: "/about_lk", label: "About LK" },
+    { href: "/about_lk", label: "About Us" },
     { href: "/services", label: "Services" },
     { href: "/projects", label: "Projects" },
     { href: "/up_coming", label: "Up Coming" },
-    { href: "/contact_lk", label: "Contact LK" }
+    { href: "/contact_lk", label: "Contact Us" }
   ];
 
   const footerIcons = [
