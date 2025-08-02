@@ -23,9 +23,9 @@ const ServiceSec: React.FC<ServiceSecProps> = ({ data }) => {
           <p className="mt-6 sm:mt-8 md:mt-12 montserrat-400 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
             {data.desc}
           </p>
-          <ul className="list-disc montserrat-400 text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] mt-6 sm:mt-8 md:mt-10 list-inside ml-4 sm:ml-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 sm:gap-x-6 gap-y-2">
+          <ul className="montserrat-400 text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] mt-6 sm:mt-8 md:mt-10 ml-4 sm:ml-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 sm:gap-x-6 gap-y-2">
             {data.points.map((point, index) => (
-              <li key={index}>{point}</li>
+              <li className='text-left list-disc ml-4 pl-2' key={index}>{point}</li>
             ))}
           </ul>
         </div>
