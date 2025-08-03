@@ -25,18 +25,18 @@ export const creds = [
 export const aboutCards = [
     {
         id: "01",
-        name: "Kind Consultation",
-        desc: "akkskskak malslmlms lmalm slma lsms jnnjdf na c c",
+        name: "Design Thinking",
+        desc: "Our architects and designers leverage modern technologies",
     },
     {
         id: "02",
-        name: "Kind Consultation",
-        desc: "akkskskak malslmlms lmalm slma lsms jnnjdf na c c",
+        name: "Sustainable Practices",
+        desc: "ensuring our developments enrich both communities and the environment",
     },
     {
         id: "03",
-        name: "Kind Consultation",
-        desc: "akkskskak malslmlms lmalm slma lsms jnnjdf na c c",
+        name: "Client-Centric",
+        desc: "Building strong relationships and delivering beyond expectations",
     },
 ]
 
