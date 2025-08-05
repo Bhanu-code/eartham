@@ -1,4 +1,7 @@
+'use client'
+
 import React from 'react'
+import { motion } from 'framer-motion'
 import { creds, tabs } from "../utils/constant"
 import Right from "../assets/cred_section_icons/right.svg"
 import Image from 'next/image'
@@ -7,7 +10,13 @@ const _Cred = () => {
   return (
     <div className="w-full py-6 sm:py-8 md:py-10 my-10 sm:my-15 md:my-20">
       {/* Credentials Section */}
-      <div className="w-[90%] sm:w-4/5 flex flex-col sm:flex-row m-auto items-center justify-between text-center gap-6 sm:gap-4 md:gap-8">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="w-[90%] sm:w-4/5 flex flex-col sm:flex-row m-auto items-center justify-between text-center gap-6 sm:gap-4 md:gap-8"
+      >
         {
           creds.map((cred, index) => (
             <div key={index} className='text-[var(--green-color)] flex-1'>
@@ -20,12 +29,18 @@ const _Cred = () => {
             </div>
           ))
         }
-      </div>
+      </motion.div>
 
       {/* Tabs Section */}
-      <div className=" w-11/12  text-[var(--green-color)] my-10 sm:my-15 md:my-20 m-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3, duration: 0.8 }}
+        viewport={{ once: true }}
+        className="w-11/12 text-[var(--green-color)] my-10 sm:my-15 md:my-20 m-auto"
+      >
         {/* Desktop/Tablet Layout */}
-        <div className="hidden   sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-between md:gap-10 lg:gap-x-5  text-center">
+        <div className="hidden sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-between md:gap-10 lg:gap-x-5 text-center">
           {
             tabs.map((item, index) => (
               <button 
@@ -39,7 +54,7 @@ const _Cred = () => {
                   className="md:h-9 md:w-9 flex-shrink-0" 
                   alt="right icon" 
                 />
-                <p className='text-left font-medium text-sm md:text-[18px]'>
+                <p className='text-center font-medium text-sm md:text-[18px]'>
                   {item.name}
                 </p>
               </button>
@@ -48,7 +63,7 @@ const _Cred = () => {
         </div>
 
         {/* Mobile Layout */}
-        <div className="sm:hidden grid grid-cols-1 gap-4">
+        <div className="sm:hidden grid grid-cols-1 gap-4 mt-5">
           {
             tabs.map((item, index) => (
               <button 
@@ -61,41 +76,16 @@ const _Cred = () => {
                   width={28} 
                   alt="right icon" 
                 />
-                <p className='font-medium text-base'>
+                <p className='font-medium text-center text-base'>
                   {item.name}
                 </p>
               </button>
             ))
           }
         </div>
-
-        {/* Alternative Mobile Layout - 2 columns for more items */}
-        {/* Uncomment this if you prefer 2-column layout on mobile */}
-        {/*
-        <div className="sm:hidden grid grid-cols-2 gap-3">
-          {
-            tabs.map((item, index) => (
-              <button 
-                key={index} 
-                className='border-2 border-[var(--green-color)] montserrat-500 rounded-full px-3 py-2 flex items-center space-x-2 hover:bg-[var(--green-color)] hover:text-white transition-colors duration-300 justify-center'
-              >
-                <Image 
-                  src={Right} 
-                  height={20} 
-                  width={20} 
-                  alt="right icon" 
-                />
-                <p className='font-medium text-sm truncate'>
-                  {item.name}
-                </p>
-              </button>
-            ))
-          }
-        </div>
-        */}
-      </div>
+      </motion.div>
     </div>
   )
 }
 
-export default _Cred;
+export default _Cred
