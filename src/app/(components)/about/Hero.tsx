@@ -199,7 +199,7 @@ const Hero = () => {
         </motion.div>
       </motion.div>
 
-      {/* Why Choose Earthaam Section */}
+     {/* Why Choose Earthaam Section */}
       <div className="w-full bg-[var(--grey-color)] py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <motion.div 
@@ -215,14 +215,14 @@ const Hero = () => {
           </motion.div>
           
           <motion.div 
-            className="grid md:grid-cols-2 lg:grid-cols-3 justify-self-auto gap-8"
+            className="flex flex-wrap justify-center gap-8"
             initial="initial"
             whileInView="animate"
             viewport={{ once: true, amount: 0.2 }}
             variants={staggerContainer}
           >
             <motion.div 
-              className="bg-white p-6 rounded-lg shadow-lg text-center"
+              className="bg-white p-6 rounded-lg shadow-lg text-center flex-1 min-w-[300px] max-w-[350px]"
               variants={cardVariants}
               whileHover="hover"
             >
@@ -238,7 +238,7 @@ const Hero = () => {
             </motion.div>
             
             <motion.div 
-              className="bg-white p-6 rounded-lg shadow-lg text-center"
+              className="bg-white p-6 rounded-lg shadow-lg text-center flex-1 min-w-[300px] max-w-[350px]"
               variants={cardVariants}
               whileHover="hover"
             >
@@ -254,7 +254,7 @@ const Hero = () => {
             </motion.div>
             
             <motion.div 
-              className="bg-white p-6 rounded-lg shadow-lg text-center"
+              className="bg-white p-6 rounded-lg shadow-lg text-center flex-1 min-w-[300px] max-w-[350px]"
               variants={cardVariants}
               whileHover="hover"
             >
@@ -270,7 +270,7 @@ const Hero = () => {
             </motion.div>
             
             <motion.div 
-              className="bg-white p-6 rounded-lg shadow-lg text-center"
+              className="bg-white p-6 rounded-lg shadow-lg text-center flex-1 min-w-[300px] max-w-[350px]"
               variants={cardVariants}
               whileHover="hover"
             >
@@ -286,7 +286,7 @@ const Hero = () => {
             </motion.div>
             
             <motion.div 
-              className="bg-white p-6 rounded-lg shadow-lg text-center"
+              className="bg-white p-6 rounded-lg shadow-lg text-center flex-1 min-w-[300px] max-w-[350px]"
               variants={cardVariants}
               whileHover="hover"
             >
