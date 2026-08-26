@@ -25,7 +25,8 @@ const Page = () => {
       >
         <div className="wrap text-center m-auto py-20 w-screen md:w-1/2 space-y-3">
           <h1 className="text-[35px] md:text-[40px] montserrat-700 text-[var(--green-color)] font-bold">
-            Call: (541) 931-3526
+            Call: +91 98983 36202
+
           </h1>
           <p className="text-[var(--green-color)] montserrat-500 font-medium text-[22px] md:text-[28px]">
             We Can&apos;t Wait to Make Your Ideas a Reality

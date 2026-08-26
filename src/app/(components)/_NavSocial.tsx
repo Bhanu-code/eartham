@@ -17,7 +17,7 @@ const _NavSocial = () => {
                 <div className="left flex flex-wrap space-x-3 lg:space-x-5 text-xs sm:text-sm">
                     <div className='flex space-x-1 items-center hover:text-gray-700 transition-colors duration-200'>
                         <Image src={CallIcon} height={15} width={15} alt='call icon' />
-                        <span>+91 7319345359</span>
+                        <span>+91 98983 36202</span>
                     </div>
                     <div className='flex space-x-1 items-center hover:text-gray-700 transition-colors duration-200'>
                         <Image src={LocationIcon} height={15} width={15} alt='location icon' />

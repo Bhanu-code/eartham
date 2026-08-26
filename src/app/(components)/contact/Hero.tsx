@@ -91,7 +91,7 @@ const Hero: React.FC = () => {
               constructioninc.com
             </p>
             <p className="text-[#2A2A2A] montserrat-400 text-[13px] sm:text-[14px] md:text-[15px]">
-              (346) 426-2351
+              +91 98983 36202
             </p>
           </div>
         </div>
