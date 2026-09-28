@@ -1,19 +1,21 @@
-"use client"
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 const ContactForm = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, ease: 'easeOut' }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
       className="w-full py-20 bg-[#F7F7F7]"
     >
       <div className="w-11/12 flex m-auto gap-x-10 montserrat-700 font-bold text-[16px]">
         <div className="left flex flex-col gap-5 w-full md:w-3/5 m-auto">
-          <h1 className="text-[40px] montserrat-700 font-bold text-[var(--green-color)]">Get in Touch</h1>
+          <h1 className="text-[40px] montserrat-700 font-bold text-[var(--green-color)]">
+            Get in Touch
+          </h1>
           <hr className="text-[var(--green-color)] w-10 border-2" />
           <input
             type="text"

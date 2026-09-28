@@ -16,8 +16,8 @@ const _Footer = () => {
     { href: "/about_lk", label: "About Us" },
     { href: "/services", label: "Services" },
     { href: "/projects", label: "Projects" },
-    { href: "/up_coming", label: "Up Coming" },
-    { href: "/contact_lk", label: "Contact Us" }
+    { href: "", label: "Up Coming" },
+    { href: "/contact", label: "Contact Us" }
   ];
 
   const footerIcons = [

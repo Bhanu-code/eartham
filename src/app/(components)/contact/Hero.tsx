@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
               Get in Touch
             </h3>
             <p className="text-[#2A2A2A] montserrat-400 text-[13px] sm:text-[14px] md:text-[15px] mt-2">
-              constructioninc.com
+              info@earthaam.in
             </p>
             <p className="text-[#2A2A2A] montserrat-400 text-[13px] sm:text-[14px] md:text-[15px]">
               +91 98983 36202
