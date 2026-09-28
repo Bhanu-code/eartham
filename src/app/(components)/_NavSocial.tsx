@@ -25,7 +25,7 @@ const _NavSocial = () => {
                     </div>
                     <div className='flex space-x-1 items-center hover:text-gray-700 transition-colors duration-200'>
                         <Image src={MailIcon} height={15} width={15} alt='mail icon' />
-                        <span>info@gmail.com</span>
+                        <span>info@earthaam.in</span>
                     </div>
                 </div>
                 
@@ -74,7 +74,7 @@ const _NavSocial = () => {
                         </div>
                         <div className='flex space-x-1 items-center hover:text-gray-700 transition-colors duration-200'>
                             <Image src={MailIcon} height={14} width={14} alt='mail icon' />
-                            <span className="truncate max-w-[100px] sm:max-w-none">info@gmail.com</span>
+                            <span className="truncate max-w-[100px] sm:max-w-none">info@earthaam.in</span>
                         </div>
                     </div>
                 </div>
